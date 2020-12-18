@@ -9,7 +9,7 @@ body{
 
 }
 .main{
-    background-image: url(new.jpg);
+    background-image: url(pink.jpg);
     height: 600px;
     max-width: 100%;
     background-repeat: no-repeat;
@@ -27,15 +27,14 @@ body{
 
 
 .menu ul li {
-  
-   
     width: 20px;
     height: 20px;
    display: inline;
     padding: 5px;
     margin: 4px;
     width: max-content;
-    border: 1px solid rgb(126, 61, 156);
+    background-color:   #912691 ;
+    border: 1px solid rgb(25, 3, 36);
 }
 
 
@@ -50,7 +49,7 @@ body{
   
  }
  .menu ul li:hover{
-     background-color: #912691;
+     background-color: #531753;
      width: min-content;
      
     }
@@ -58,9 +57,9 @@ body{
 
 .text1{
      
-    font-size:30px;
+    font-size:40px;
     font-family: sans-serif;
-    color: white;
+    color: rgb(109, 20, 104);
     position: absolute;
     left: 150px;
     top: 150px;
@@ -69,11 +68,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-.text1:hover{
 
-    font-size: 40px;
-    color: rgb(109, 20, 104);
-}
+
 .photo{
     background-color: grey;
     height: 700px;
@@ -115,3 +111,174 @@ img {
     height: 500px;
     width: 500px;
 }
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(last.jpg);
+    background-position: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.main-box{
+    position: absolute;
+    height: 200vh;
+    width: 95%;
+    right: 32px;
+    top: 220vh;
+}
+.search{
+    position: absolute;
+    right: 410px;
+    top: 80px;
+  
+
+}
+.search-t{
+    width: 400px;
+    height: 6.5vh;
+    font-size: 20px;
+    font-family: sans-serif;
+    background-color: rgb(191, 243, 243);
+    
+}
+.main-selc{
+    right: 55px;
+    top:6vh; 
+    position: absolute;
+    height: 85vh;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 20px;
+    grid-template-rows:12px ;
+    padding: 20px;
+    margin: 20px;
+  
+    justify-content: center;
+    align-items: top;
+}
+.select{
+  padding: 40px;
+  margin: 20px;
+  ;
+}
+.end{
+    width: 150px;
+    height: 40px;
+    background-color: #FD92AF;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.end-man{
+    background-color:#1A1F25 ;
+    width: 150px;
+    height: 40px;
+   
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.gender{
+    width: 12px;
+    height: 6px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 12pxs;
+    position: relative;
+    left:  30px;
+
+} 
+.bot{
+       height: 40px;
+       padding: 3px;
+       margin: 2px;
+       position: relative;  
+       width: 55px;
+       border-radius: 1, 1, 1, 1, rgb(rgb(31, 27, 27));
+    }
+    .bot:hover{
+        background-color: rgb(223, 34, 240);
+    }
+    .bot-d{
+        position: relative;
+        top: 78px;
+        left: 810px;
+        width: fit-content;
+    }
+    .map{
+        height: 100vh;
+        position: relative;
+         width: 100%;
+         justify-content: center;
+         align-items: center;
+         background-color:rgb(243, 189, 189);
+         bottom: 34px;
+
+    }
+    .ph-map{
+        background-image: url(https://th.bing.com/th/id/OIP.I7xkz_LuGQwXU8stCdkeJgHaDt?w=347&h=175&c=7&o=5&dpr=1.5&pid=1.7);
+        background-repeat: no-repeat;
+        background-position: cover;
+        background-size: 100%;
+        height: 75vh;
+        width: 75%;
+        position: relative;
+        left: 140px;
+        bottom: 20px;
+        cursor:crosshair;
+        
+    }
+    .shop{
+   position: relative;
+   left: 450px;
+   width: 700px;
+   height: 70px;
+      font-size: 50px;
+      font-family: sans-serif;
+
+    }
+    .last{
+        position: relative;
+        bottom: 46px;
+        width:100%;
+        height: 100vh;
+        background-color: turquoise;
+        justify-content: center;
+        align-self: center;
+        
+    }
+    .send{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+      
+    }
+    .input{
+        width: 300px;
+        height: 30px;
+    }
+    .inpot{
+        width: 300px;
+        height: 200px;
+        
+    }
+    .massage{
+        position: relative;
+        left: 470px;
+        padding: 12px;
+        margin: 12px;
+        align-items: center;
+        font-size: 30px;
+        font-family: sans-serif;
+        width: 400px;
+    }
+    .ls-bot{
+        width: 300px;
+        padding: 2px;
+        margin: 12px;
+        height: 20px;
+        height: 30px;
+        background-color: wheat;
+        
+
+    }
